@@ -1,0 +1,411 @@
+{
+    "accessors": {
+        "accessor_buffer_Plane_0": {
+            "bufferView": "bufferView_buffer_Plane_0",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 4,
+            "max": [
+                1.0,
+                1.0,
+                0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                0.0
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Plane_1": {
+            "bufferView": "bufferView_buffer_Plane_0",
+            "byteOffset": 48,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 4,
+            "max": [
+                0,
+                0,
+                1.0
+            ],
+            "min": [
+                0.0,
+                0.0,
+                1.0
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Plane_2": {
+            "bufferView": "bufferView_buffer_Plane_0",
+            "byteOffset": 96,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 4,
+            "max": [
+                0.9999000430107117,
+                0.9999000199895818
+            ],
+            "min": [
+                9.998001041822135e-05,
+                9.995698928833008e-05
+            ],
+            "type": "VEC2"
+        },
+        "accessor_buffer_Plane_3": {
+            "bufferView": "bufferView_buffer_Plane_0",
+            "byteOffset": 128,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 4,
+            "max": [
+                0.9999000430107117,
+                0.9999000199895818
+            ],
+            "min": [
+                9.998001041822135e-05,
+                9.995698928833008e-05
+            ],
+            "type": "VEC2"
+        },
+        "accessor_buffer_Plane_4": {
+            "bufferView": "bufferView_buffer_Plane_1",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 6,
+            "max": [
+                3
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        "accessor_buffer_Suzanne_0": {
+            "bufferView": "bufferView_buffer_Suzanne_0",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 1966,
+            "max": [
+                1.3671875,
+                0.8515625,
+                0.984375
+            ],
+            "min": [
+                -1.3671875,
+                -0.8515625,
+                -0.984375
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Suzanne_1": {
+            "bufferView": "bufferView_buffer_Suzanne_0",
+            "byteOffset": 23592,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 1966,
+            "max": [
+                1.0,
+                0.9864740371704102,
+                0.9970182180404663
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -0.992402970790863
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Suzanne_2": {
+            "bufferView": "bufferView_buffer_Suzanne_0",
+            "byteOffset": 47184,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 1966,
+            "max": [
+                0.9868882298469543,
+                0.9872517585754395
+            ],
+            "min": [
+                0.013111889362335205,
+                0.04068589210510254
+            ],
+            "type": "VEC2"
+        },
+        "accessor_buffer_Suzanne_3": {
+            "bufferView": "bufferView_buffer_Suzanne_0",
+            "byteOffset": 62912,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 1966,
+            "max": [
+                0.990263819694519,
+                0.9902413645759225
+            ],
+            "min": [
+                0.009736166335642338,
+                0.009758591651916504
+            ],
+            "type": "VEC2"
+        },
+        "accessor_buffer_Suzanne_4": {
+            "bufferView": "bufferView_buffer_Suzanne_1",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 2904,
+            "max": [
+                1965
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        }
+    },
+    "asset": {
+        "profile": {
+            "api": "WebGL",
+            "version": "1.0.3"
+        },
+        "version": "1.0"
+    },
+    "bufferViews": {
+        "bufferView_buffer_Plane_0": {
+            "buffer": "buffer_combined",
+            "byteLength": 160,
+            "byteOffset": 0,
+            "target": 34962
+        },
+        "bufferView_buffer_Plane_1": {
+            "buffer": "buffer_combined",
+            "byteLength": 12,
+            "byteOffset": 160,
+            "target": 34963
+        },
+        "bufferView_buffer_Suzanne_0": {
+            "buffer": "buffer_combined",
+            "byteLength": 78640,
+            "byteOffset": 172,
+            "target": 34962
+        },
+        "bufferView_buffer_Suzanne_1": {
+            "buffer": "buffer_combined",
+            "byteLength": 5808,
+            "byteOffset": 78812,
+            "target": 34963
+        }
+    },
+    "buffers": {
+        "buffer_combined": {
+            "byteLength": 84620,
+            "type": "arraybuffer",
+            "uri": "buffer_combined.bin"
+        }
+    },
+    "extensions": {
+        "KHR_materials_common": {
+            "lights": {}
+        }
+    },
+    "extensionsUsed": [
+        "KHR_materials_common"
+    ],
+    "images": {
+        "image_diffuse.png": {
+            "uri": "diffuse.png"
+        },
+        "image_ground.jpg": {
+            "uri": "ground.jpg"
+        },
+        "image_lightmap.jpg": {
+            "uri": "lightmap.jpg"
+        }
+    },
+    "materials": {
+        "material_Material.001": {
+            "extensions": {
+                "KHR_materials_common": {
+                    "technique": "CONSTANT",
+                    "values": {
+                        "diffuse": "texture_Texture",
+                        "doubleSided": false,
+                        "emission": "texture_Texture",
+                        "transparency": 1.0,
+                        "transparent": false
+                    }
+                }
+            },
+            "name": "Material.001"
+        },
+        "material_Material.002": {
+            "extensions": {
+                "KHR_materials_common": {
+                    "technique": "CONSTANT",
+                    "values": {
+                        "diffuse": "texture_Texture.002",
+                        "doubleSided": false,
+                        "emission": "texture_Texture.002",
+                        "transparency": 1.0,
+                        "transparent": false
+                    }
+                }
+            },
+            "name": "Material.002"
+        }
+    },
+    "meshes": {
+        "mesh_Plane": {
+            "name": "Plane",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_buffer_Plane_1",
+                        "POSITION": "accessor_buffer_Plane_0",
+                        "TEXCOORD_0": "accessor_buffer_Plane_2",
+                        "TEXCOORD_1": "accessor_buffer_Plane_3"
+                    },
+                    "indices": "accessor_buffer_Plane_4",
+                    "material": "material_Material.002",
+                    "mode": 4
+                }
+            ]
+        },
+        "mesh_Suzanne": {
+            "name": "Suzanne",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_buffer_Suzanne_1",
+                        "POSITION": "accessor_buffer_Suzanne_0",
+                        "TEXCOORD_0": "accessor_buffer_Suzanne_2",
+                        "TEXCOORD_1": "accessor_buffer_Suzanne_3"
+                    },
+                    "indices": "accessor_buffer_Suzanne_4",
+                    "material": "material_Material.001",
+                    "mode": 4
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "node_Plane": {
+            "children": [],
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshes": [
+                "mesh_Plane"
+            ],
+            "name": "Plane"
+        },
+        "node_Suzanne": {
+            "children": [],
+            "matrix": [
+                0.24944885075092316,
+                8.323418398958893e-09,
+                -0.06194917485117912,
+                0.0,
+                -0.035064518451690674,
+                0.2118900567293167,
+                -0.1411932110786438,
+                0.0,
+                0.05107033625245094,
+                0.1454821079969406,
+                0.2056434154510498,
+                0.0,
+                0.0,
+                0.0,
+                0.1603805124759674,
+                1.0
+            ],
+            "meshes": [
+                "mesh_Suzanne"
+            ],
+            "name": "Suzanne"
+        },
+        "node_scene_Scene_root": {
+            "children": [
+                "node_Plane",
+                "node_Suzanne"
+            ],
+            "matrix": [
+                -1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "name": "node_scene_Scene_root"
+        }
+    },
+    "samplers": {
+        "sampler_default": {}
+    },
+    "scene": "scene_Scene",
+    "scenes": {
+        "scene_Scene": {
+            "extras": {
+                "active_camera": "camera_Camera",
+                "background_color": [
+                    0.05087608844041824,
+                    0.05087608844041824,
+                    0.05087608844041824
+                ],
+                "frames_per_second": 24
+            },
+            "name": "Scene",
+            "nodes": [
+                "node_scene_Scene_root"
+            ]
+        }
+    },
+    "textures": {
+        "texture_Texture": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_default",
+            "source": "image_diffuse.png"
+        },
+        "texture_Texture.001": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_default",
+            "source": "image_lightmap.jpg"
+        },
+        "texture_Texture.002": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_default",
+            "source": "image_ground.jpg"
+        }
+    }
+}
